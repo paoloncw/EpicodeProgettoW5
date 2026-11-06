@@ -54,3 +54,15 @@ a {
   display: flex;
   gap: 8px;
 }
+
+
+
+/* media query largh min 768px */
+@media (min-width: 768px) {
+  #header {
+   flex-direction: row;
+   justify-content:space-between;
+   align-items:center;
+   padding: 12px 24px;
+  }
+}
