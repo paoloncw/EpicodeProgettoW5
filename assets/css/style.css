@@ -29,3 +29,28 @@ a {
 
 
 /* Aggiungi qui le tue regole, mobile-first. */
+
+#header {
+  display: flex;
+  flex-direction: column;
+  position:sticky;
+  top:0;
+  z-index: 100;
+  padding: 4px 8px;
+  background-color: #ffffff;
+}
+
+#header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.logo {
+  font-weight: bold;
+  color: #1f7a4f;
+  display: flex;
+  gap: 8px;
+}
