@@ -38,6 +38,7 @@ a {
   z-index: 100;
   padding: 4px 8px;
   background-color: #ffffff;
+  transition: padding 0.3s ease, background-color 0.3s ease;
 }
 
 #header ul {
@@ -196,6 +197,11 @@ a {
   }
 }
 
+#header.scrolled {
+  padding: 4px 24px;
+  background-color: #cbffd0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
 
 /* media query largh min 768px */
 @media (min-width: 768px) {
