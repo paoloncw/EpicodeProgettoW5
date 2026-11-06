@@ -130,11 +130,12 @@ a {
 
 .works-div{
   display: flex;
-  gap: 10px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
 .works-card{
+  aspect-ratio: 1/1;/*aspect-ratio consigliato dell'IA*/
   flex: 1 1 280px;
   background-color: #ffffff;
   padding: 10px;
@@ -142,6 +143,7 @@ a {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
+  align-items: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -150,6 +152,61 @@ a {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
+.team {
+  padding: 48px 16px;
+  background-color: #f0fff1;
+}
+
+.team h2 {
+  text-align: center;
+  color: #1f7a4f;
+}
+
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.una-card{
+  flex: 1 1 280px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-direction: column;
+}
+
+.una-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #1f7a4f;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 12px;
+}
+
+.role{
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #1f7a4f;
+  letter-spacing: 1px;
+}
 
 #site-footer {
   background-color: #1a1a1a;
