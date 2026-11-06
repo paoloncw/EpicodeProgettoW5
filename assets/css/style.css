@@ -118,6 +118,38 @@ a {
   color: #1f7a4f;
 }
 
+.works {
+  padding: 48px 16px;
+}
+
+.works h2 {
+  text-align: center;
+  color: #1f7a4f;
+}
+
+.works-div{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.works-card{
+  flex: 1 1 280px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.works-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+
 #site-footer {
   background-color: #1a1a1a;
   color: #ffffff;
