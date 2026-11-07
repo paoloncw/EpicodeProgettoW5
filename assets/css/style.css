@@ -162,6 +162,31 @@ a {
   justify-content: center;
   align-items: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  animation: hero-animation 0.6s ease backwards;
+}
+
+.works-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.works-card:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.works-card:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.works-card:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+.works-card:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.works-card:nth-child(7) {
+  animation-delay: 1.2s;
 }
 
 .works-card:hover {
