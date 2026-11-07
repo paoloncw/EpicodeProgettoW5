@@ -12,3 +12,9 @@ window.addEventListener("scroll", function() {
         header.classList.remove("scrolled");
     }
 });
+
+
+const bottoneTema = document.getElementById("tema");
+bottoneTema.addEventListener("click", function () {
+  document.body.classList.toggle("dark");
+});
